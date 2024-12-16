@@ -1,0 +1,256 @@
+*{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+.navigatie{
+    display: flex;
+    justify-content: center;
+    font-size: 2.19em;
+    color: #6F9368;
+}
+
+nav a {
+    color: #6F9368; 
+}
+  
+nav a:hover {
+    color: #fff; 
+    background-color: #6F9368; 
+    padding: 0.63em; 
+    border-radius: 0.31em; 
+}
+
+body, footer{
+    background-color: #39583A;
+}
+
+main{
+    background-color: #6F9368;
+}
+
+
+
+header img{
+    width: 5.63em;
+    height: 5.63em;
+    padding-right: 10em;
+}
+
+.navigatie li {
+    padding-right: 6em;
+}
+
+header{
+    display: flex;
+}
+
+.homepage {
+    position: relative;
+    background-image: url('../images/happyhealthbackground.gif'); 
+    background-position: center; 
+    height: 60vh; 
+    width: 94.1vw;
+    display: flex;
+    justify-content: left;
+    background-size: cover;
+}
+  
+h1 {
+    display: flex;
+    align-items: center;
+}
+  
+#h {
+    font-size: 19rem; 
+    padding-left: 0.05em;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
+    margin-left: 0.2em;
+}
+  
+#text-wrap {
+    color: white;
+    font-size: 4.6em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+  
+#text-wrap span {
+    margin: 0; 
+    display: block;
+}
+
+.link{
+    color: #39583A;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.date{
+    border: 0.13em solid white;
+    padding: 1em;
+    padding-left: 2em;
+    border-radius: 0.7em;
+    width: 8.5em;
+    text-align: end;
+    position: relative;
+    font-size: 1.25em;
+}
+
+footer p{
+    position: absolute;
+    border: 0.13em solid #6F9368;
+    padding: 0.13em;
+    margin-left: 607.52px;
+    font-size: 1.25em;
+}
+
+.time{
+    background-color: #6F9368;
+    position: absolute;
+    left: 1em;
+}
+
+p{
+    margin-left: 1.88em;
+    margin-right: 0.94em;
+}
+
+h2{
+    padding-left: 1.2em;
+    text-decoration: underline;
+}
+
+footer img{
+    width: 18.75em;
+    padding-left: 39.7%;
+    padding-bottom: 2em;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    font-size: 2.19em;
+    animation: zoom-in 5s ease infinite;
+}
+
+@keyframes zoom-in{
+    0% {
+      scale: 40%;
+    }
+    50% {
+      scale: 70%;
+    }
+    100% {
+      scale: 100%;
+    }
+}
+
+.end img{
+    height: 45px;
+    width: auto;
+    padding-right: 2em;
+}
+
+section{
+    display: flex;
+    width: 93vw;
+    margin: auto;
+    padding-right: 3.5em;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figure img{
+    width: 12.50em;
+    height: 12.50em;
+    border-radius: 0.63em;
+}
+
+article{
+    background-color: #39583A;
+    border-radius: 0.63em;
+    margin-top: 2.19em;
+    margin-bottom: 0.94em;
+    width: 74.5vw;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.19em;
+}
+
+.overons{
+    transform: none;
+    border: none;
+    margin: 0;
+}
+
+.overons li, .meal li{
+    padding-bottom: 1em;
+}
+
+
+
+h4{
+    font-size: 1.25em;
+    padding-left: 1.5em;
+}
+
+.podcast{
+    display: flex;
+    justify-content: center;
+    width: 93vw;
+    padding-left: 2em;
+}
+
+.podcast img{
+    margin-top: 2.2em;
+    width: 12.50em;
+    height: 12.50em;
+    border-radius: 0.63em;
+    margin-right: 2.5em;
+}
+
+.podcast article{
+    background-color: #39583A;
+    border-radius: 0.63em;
+    width: 74.5vw;
+    height: 12.50em;
+}
+
+.podcast a{
+    padding-left: 62em;
+}
+
+
+
+.contentmeal section {
+    display: flex; 
+    align-items: center; 
+}
+  
+.contentmeal img {
+    width: 6.25em; 
+    padding: 3em;
+    padding-right: 0;
+}
+
+.contentmeal a{
+    font-size: 2.19em;
+    text-decoration: none;
+}
+
+.meal{
+    background-color: #6F9368;
+    height: 53vh;
+}
